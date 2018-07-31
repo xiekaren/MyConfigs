@@ -6,6 +6,7 @@ set expandtab
 
 "UI config
 set number
+set relativenumber
 set showcmd
 set cursorline
 filetype indent on "load filetype specific indent files
