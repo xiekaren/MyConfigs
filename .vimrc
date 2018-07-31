@@ -17,6 +17,9 @@ set showmatch "highlights matching parenthesis
 set hlsearch
 set incsearch "search as characters are entered
 
+"Syntax highlighting
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown "highlighting for md and markdown files
+
 "Auto-install VimPlug
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
